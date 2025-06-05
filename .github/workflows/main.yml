@@ -1,18 +1,38 @@
-name: Publish docs via GitHub Pages
+name: MkDocs Build and Deploy
+
 on:
+  workflow_dispatch:
   push:
+    paths:
+      - "mkdocs.yml"
+      - "docs/**"
+  pull_request:
+    paths:
+      - "mkdocs.yml"
+      - "docs/**"
 
 jobs:
   build:
-    name: Deploy docs
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v2
+      - name: Deploy MkDocs
+        uses: Reloaded-Project/devops-mkdocs@v1
+        with:
+          requirements: source/requirements.txt
+          config-file: source/mkdocs.yml
+          publish-to-pages: false
+          output-directory: site
 
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+      - name: Commit built site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/
+          git commit -m "Update built MkDocs site [skip ci]" || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONFIG_FILE: source/mkdocs.yml
-          REQUIREMENTS: source/requirements.txt
