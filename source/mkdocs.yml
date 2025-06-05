@@ -1,4 +1,5 @@
 site_name: FIRST Robotics Community Docs
+repo_url: https://github.com/Skyhawkbotics/firstdocs
 theme: 
   name: material
   font:
