@@ -1,5 +1,6 @@
 site_name: FIRST Robotics Community Docs
 repo_url: https://github.com/Skyhawkbotics/firstdocs
+site_dir: ../site
 theme: 
   name: material
   font:

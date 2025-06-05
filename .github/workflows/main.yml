@@ -14,7 +14,6 @@ jobs:
       - name: Build MkDocs site
         uses: romw314/mkdocs-action@v9
         with:
-          output-dir: site
           workdir: source
 
       - name: Push built site back to repo
