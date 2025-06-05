@@ -1,4 +1,4 @@
-name: Build and Deploy MkDocs
+name: MkDocs Build
 
 on:
   push:
@@ -8,11 +8,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: MkDocs Build
-        uses: romw314/mkdocs-action@v9
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          output-dir: site
-          workdir: mkdocs
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material
+
+      - name: Build MkDocs site
+        run: |
+          mkdocs build --config-file source/mkdocs.yml --site-dir site
