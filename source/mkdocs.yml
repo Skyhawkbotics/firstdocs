@@ -1,2 +1,7 @@
 site_name: FIRST Robotics Community Docs
-theme: material
+theme: 
+  name: material
+  font:
+    text: Oxanium
+  palette:
+    primary: red
