@@ -3,14 +3,7 @@ name: MkDocs Build and Deploy
 on:
   workflow_dispatch:
   push:
-    paths:
-      - "mkdocs.yml"
-      - "docs/**"
-  pull_request:
-    paths:
-      - "mkdocs.yml"
-      - "docs/**"
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
