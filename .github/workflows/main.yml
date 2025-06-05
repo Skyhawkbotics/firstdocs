@@ -1,27 +1,18 @@
-name: MkDocs Build
-
+name: Publish docs via GitHub Pages
 on:
   push:
 
 jobs:
   build:
+    name: Deploy docs
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - name: Checkout main
+        uses: actions/checkout@v2
 
-      - name: Build MkDocs site
-        uses: romw314/mkdocs-action@v9
-        with:
-          workdir: source
-
-      - name: Push built site back to repo
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add site/
-          git commit -m "Build MkDocs site [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
+      - name: Deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONFIG_FILE: source/mkdocs.yml
+          REQUIREMENTS: source/requirements.txt
