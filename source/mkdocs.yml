@@ -1,7 +1,10 @@
 site_name: FIRST Robotics Community Docs
 repo_url: https://github.com/Skyhawkbotics/firstdocs
+repo_name: Skyhawkbotics/firstdocs
 site_dir: ../site
-theme: 
+theme:
+  icon:
+    repo: fontawesome/brands/github
   name: material
   font:
     text: Oxanium
