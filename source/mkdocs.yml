@@ -20,6 +20,8 @@ nav:
   - Programming:
     - programming/overview.md
 theme:
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
   icon:
     repo: fontawesome/brands/github
   name: material
