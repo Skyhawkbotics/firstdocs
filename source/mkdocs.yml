@@ -9,6 +9,9 @@ theme:
   name: material
   features:
     - content.action.edit
+    - navigation.tabs
+    - navigation.path
+    - navigation.footer
   font:
     text: Oxanium
   palette:
