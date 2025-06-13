@@ -17,5 +17,6 @@ jobs:
         uses: Reloaded-Project/devops-mkdocs@v1
         with:
           requirements: ./source/docs/requirements.txt
+          config-file: ./source/mkdocs.yml
           publish-to-pages: ${{ github.event_name == 'push' }}
           checkout-current-repo: true
