@@ -68,7 +68,7 @@ jobs:
         run: |
           # Deploy pre-built static output in site/
           if [ "${{ github.ref_name }}" = "main" ]; then
-            vercel deploy --prebuilt --prod       --token $VERCEL_TOKEN site
+            vercel deploy --prebuilt --prod --yes      --token $VERCEL_TOKEN site
           else
-            vercel deploy --prebuilt              --token $VERCEL_TOKEN site
+            vercel deploy --prebuilt --yes             --token $VERCEL_TOKEN site
           fi
