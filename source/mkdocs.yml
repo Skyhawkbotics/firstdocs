@@ -4,6 +4,21 @@ repo_name: Skyhawkbotics/firstdocs
 site_dir: ../site
 edit_uri: edit/setup/source/docs/
 copyright: Maintained by Hawkbot1cs
+nav:
+  - index.md
+  - Overview:
+    - overview/aboutfirst.md
+    - overview/aboutftc.md
+    - overview/pastseasons.md
+  - Getting Started:
+    - gettingstarted/overview.md
+    - gettingstarted/firststeps.md
+    - gettingstarted/initrecruitment.md
+    - gettingstarted/initfundraising.md
+  - Design & CAD:
+    - design/overview.md
+  - Programming:
+    - programming/overview.md
 theme:
   icon:
     repo: fontawesome/brands/github
