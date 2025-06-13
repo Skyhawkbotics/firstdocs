@@ -1,0 +1,74 @@
+name: Build & Deploy MkDocs to Vercel
+
+# ──────────────────────────────────────────────────────────────
+# Triggers
+#   • Push to *any* branch      → preview (unless it's main)
+#   • Pull request (any branch) → preview
+#   • Push to main              → production
+# ──────────────────────────────────────────────────────────────
+on:
+  push:                # all branches
+  pull_request:        # previews for PRs
+  workflow_dispatch:   # manual trigger
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣  Check out code
+      - uses: actions/checkout@v4
+
+      # 2️⃣  Set up Python & cache pip
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('source/requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      # 3️⃣  Install MkDocs + plugins
+      - name: Install MkDocs dependencies
+        run: pip install -r source/requirements.txt
+
+      # 4️⃣  Build the docs → site/
+      - name: Build MkDocs site
+        run: mkdocs build -f source/mkdocs.yml -d site
+
+      # 5️⃣  Set up Node (for Vercel CLI)
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Vercel CLI
+        run: npm i -g vercel@latest
+
+      # 6️⃣  Pull Vercel project settings (separate envs)
+      - name: Pull Vercel metadata
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        # Use preview env except on main
+        run: |
+          if [ "${{ github.ref_name }}" = "main" ]; then
+            vercel pull --yes --environment=production --token $VERCEL_TOKEN
+          else
+            vercel pull --yes --environment=preview --token $VERCEL_TOKEN
+          fi
+
+      # 7️⃣  Deploy (preview or prod)
+      - name: Deploy to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          # Deploy pre-built static output in site/
+          if [ "${{ github.ref_name }}" = "main" ]; then
+            vercel deploy --prebuilt --prod       --token $VERCEL_TOKEN site
+          else
+            vercel deploy --prebuilt              --token $VERCEL_TOKEN site
+          fi

@@ -1,4 +1,3 @@
 {
-  "buildCommand": "pip install -r source/requirements.txt && mkdocs build -f source/mkdocs.yml -d site",
   "outputDirectory": "site"
 }
