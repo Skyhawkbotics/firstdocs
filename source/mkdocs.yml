@@ -19,6 +19,8 @@ nav:
     - design/overview.md
   - Programming:
     - programming/overview.md
+  - Teams:
+    - teams/20790.md
 theme:
   logo: assets/logo.svg
   favicon: assets/favicon.svg
