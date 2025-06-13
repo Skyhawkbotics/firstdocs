@@ -1,4 +1,4 @@
-site_name: FIRST Robotics Community Docs
+site_name: FTC Community Docs
 repo_url: https://github.com/Skyhawkbotics/firstdocs
 repo_name: Skyhawkbotics/firstdocs
 site_dir: ../site
@@ -12,4 +12,4 @@ theme:
   font:
     text: Oxanium
   palette:
-    primary: red
+    primary: orange

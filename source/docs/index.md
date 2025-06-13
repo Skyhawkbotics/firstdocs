@@ -1,3 +1,3 @@
 # Welcome!
 
-Welcome to the FIRST Robotics Community Docs! By people in FIRST robotics, for people in FIRST robotics.
+Welcome to the FIRST Tech Challenge Community Docs! By people in FTC, for people in FTC.
