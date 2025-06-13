@@ -1,7 +1,7 @@
 site_name: FTC Community Docs
 repo_url: https://github.com/Skyhawkbotics/firstdocs
 repo_name: Skyhawkbotics/firstdocs
-site_dir: /../site
+site_dir: ../site
 edit_uri: edit/setup/source/docs/
 copyright: Maintained by Hawkbot1cs
 theme:
