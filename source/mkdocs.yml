@@ -1,9 +1,3 @@
-site_name: FTC Community Docs
-repo_url: https://github.com/Skyhawkbotics/firstdocs
-repo_name: Skyhawkbotics/firstdocs
-site_dir: ../site
-edit_uri: edit/setup/source/docs/
-copyright: Maintained by Hawkbot1cs
 nav:
   - index.md
   - Overview:
@@ -20,7 +14,14 @@ nav:
   - Programming:
     - programming/overview.md
   - Teams:
+    - teams/info.md
     - teams/20790.md
+site_name: FTC Community Docs
+repo_url: https://github.com/Skyhawkbotics/firstdocs
+repo_name: Skyhawkbotics/firstdocs
+site_dir: ../site
+edit_uri: edit/setup/source/docs/
+copyright: Maintained by Hawkbot1cs
 theme:
   logo: assets/logo.svg
   favicon: assets/favicon.svg
