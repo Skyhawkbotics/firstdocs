@@ -1,9 +1,9 @@
 # Past Seasons
 
-## Decode™ presented by RTX
-## Into the Deep℠ presented by RTX
-## Centerstage℠ presented by Raytheon Technologies
-## PowerPlay℠ presented by Raytheon Technologies
+## DECODE™ presented by RTX
+## INTO THE DEEP℠ presented by RTX
+## CENTERSTAGE℠ presented by Raytheon Technologies
+## POWERPLAY℠ presented by Raytheon Technologies
 ## Freight Frenzy℠ presented by Raytheon Technologies
 ## Ultimate Goal℠ presented by Qualcomm
 ## Skystone℠ presented by Qualcomm
