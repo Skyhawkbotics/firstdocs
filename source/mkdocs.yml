@@ -20,6 +20,7 @@ nav:
   - Programming:
     - programming/overview.md
   - Teams:
+    - teams/info.md
     - teams/20790.md
 theme:
   logo: assets/logo.svg
