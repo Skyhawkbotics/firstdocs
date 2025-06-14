@@ -62,3 +62,5 @@ plugins:
       repository: Skyhawkbotics/firstdocs
       branch: dev
       docs_path: source/docs/
+  - git-revision-date-localized:
+      enable_creation_date: true
