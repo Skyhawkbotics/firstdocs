@@ -1,18 +1,22 @@
-name: Build and Deploy MkDocs
+name: MkDocs Build and Deploy
 
 on:
+  workflow_dispatch:
   push:
+  pull_request:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: MkDocs Build
-        uses: romw314/mkdocs-action@v9
+      - name: Deploy MkDocs
+        uses: Reloaded-Project/devops-mkdocs@v1
         with:
-          output-dir: site
-          workdir: mkdocs
+          requirements: ./source/docs/requirements.txt
+          config-file: ./source/mkdocs.yml
+          publish-to-pages: ${{ github.event_name == 'push' }}
+          checkout-current-repo: true

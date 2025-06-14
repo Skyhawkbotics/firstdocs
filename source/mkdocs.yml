@@ -1,0 +1,66 @@
+nav:
+  - index.md
+  - Overview:
+    - overview/aboutfirst.md
+    - overview/aboutftc.md
+    - overview/pastseasons.md
+  - Getting Started:
+    - gettingstarted/overview.md
+    - gettingstarted/firststeps.md
+    - gettingstarted/initrecruitment.md
+    - gettingstarted/initfundraising.md
+  - Design & CAD:
+    - design/overview.md
+  - Programming:
+    - programming/overview.md
+  - Teams:
+    - teams/info.md
+    - teams/20790.md
+site_name: FTC Community Docs
+repo_url: https://github.com/Skyhawkbotics/firstdocs
+repo_name: Skyhawkbotics/firstdocs
+site_dir: ../site
+edit_uri: edit/setup/source/docs/
+copyright: Maintained by Hawkbot1cs
+theme:
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  icon:
+    repo: fontawesome/brands/github
+  name: material
+  features:
+    - content.action.edit
+    - navigation.tabs
+    - navigation.path
+    - navigation.footer
+  font:
+    text: Oxanium
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+plugins:
+  - git-committers:
+      repository: Skyhawkbotics/firstdocs
+      branch: dev
+      docs_path: source/docs/
+  - git-revision-date-localized:
+      enable_creation_date: true

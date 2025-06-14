@@ -1,0 +1,4 @@
+# About the *FIRST®* Tech Challenge
+
+## Overview
+The FIRST® Tech Challenge, or FTC, is a program of the For Inspiration and Recognition of Science and Technology (FIRST) organization. Intended for students grades 7 - 12, the FIRST® Tech Challenge teaches students to think like engineers. Students will design, build, test, iterate, program, and compete using robots built using reusable materials and coded on the Android platform. Participants and alumni have found educational opportunities, sponsorships, and future employers through their work in the FTC program, demonstrating the quality of STEM experiences the FIRST® organization provides.
