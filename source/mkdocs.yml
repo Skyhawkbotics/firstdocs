@@ -57,3 +57,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+plugins:
+  - git-committers:
+      repository: Skyhawkbotics/firstdocs
+      branch: dev
+      docs_path: source/docs/
