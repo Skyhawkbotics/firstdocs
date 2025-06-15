@@ -11,6 +11,12 @@ nav:
     - gettingstarted/initfundraising.md
   - Hardware:
     - hardware/overview.md
+  - Electronics:
+    - electronics/overview.md
+    - electronics/rev-hardware.md
+    - electronics/hub-comparison.md
+    - electronics/power-distribution.md
+    - electronics/telemetry.md
   - CAD:
     - cad/overview.md
   - Programming:
