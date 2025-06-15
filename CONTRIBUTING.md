@@ -2,6 +2,11 @@
 
 Thank you for contributing to the FTC community docs! You are enhancing the knowledge base for current and future FTC teams, making FTC better for everyone.
 
+## Formatting Resources
+
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [Material for MkDocs Formatting Reference](https://squidfunk.github.io/mkdocs-material/reference/)
+
 ## Update an Existing Page
 
 1. Locate the page on the live website.
