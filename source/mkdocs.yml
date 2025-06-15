@@ -7,8 +7,11 @@ nav:
   - Getting Started:
     - gettingstarted/overview.md
     - gettingstarted/firststeps.md
-    - gettingstarted/initrecruitment.md
-    - gettingstarted/initfundraising.md
+    - gettingstarted/season-timeline.md
+    - gettingstarted/software-tools.md
+    - gettingstarted/purchasing-guide.md
+    - gettingstarted/common-mistakes.md
+    - gettingstarted/mvr.md
   - Hardware:
     - hardware/overview.md
   - Electronics:
