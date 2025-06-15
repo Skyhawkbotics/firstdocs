@@ -47,7 +47,7 @@ site_name: FTC Community Docs
 repo_url: https://github.com/Skyhawkbotics/firstdocs
 repo_name: Skyhawkbotics/firstdocs
 site_dir: ../site
-edit_uri: edit/setup/source/docs/
+edit_uri: edit/main/source/docs/
 copyright: Maintained by Hawkbot1cs
 theme:
   logo: assets/logo.svg
@@ -87,7 +87,7 @@ theme:
 plugins:
   - git-committers:
       repository: Skyhawkbotics/firstdocs
-      branch: dev
+      branch: main
       docs_path: source/docs/
   - git-revision-date-localized:
       enable_creation_date: true
