@@ -14,6 +14,15 @@ nav:
     - gettingstarted/mvr.md
   - Hardware:
     - hardware/overview.md
+    - hardware/drivetrains.md
+    - hardware/intakes.md
+    - hardware/elevators.md
+    - hardware/scoring.md
+    - hardware/fasteners.md
+    - hardware/bearings.md
+    - hardware/motion.md
+    - hardware/stringing.md
+    - hardware/best-practices.md
   - Electronics:
     - electronics/overview.md
     - electronics/rev-hardware.md
