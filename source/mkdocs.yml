@@ -9,8 +9,10 @@ nav:
     - gettingstarted/firststeps.md
     - gettingstarted/initrecruitment.md
     - gettingstarted/initfundraising.md
-  - Design & CAD:
-    - design/overview.md
+  - Hardware:
+    - hardware/overview.md
+  - CAD:
+    - cad/overview.md
   - Programming:
     - programming/overview.md
   - Outreach:
