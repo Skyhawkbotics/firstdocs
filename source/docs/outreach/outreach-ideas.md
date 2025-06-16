@@ -1,1 +1,0 @@
-# Effective Outreach Ideas & Case Studies 

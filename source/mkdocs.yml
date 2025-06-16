@@ -35,11 +35,13 @@ nav:
     - programming/overview.md
   - Outreach:
     - outreach/overview.md
-    - outreach/award-strategy.md
-    - outreach/documenting-engineering.md
-    - outreach/winning-portfolio.md
-    - outreach/outreach-ideas.md
     - outreach/team-brand.md
+  - Judging:
+    - judging/overview.md
+    - judging/scoring.md
+    - judging/award-strategy.md
+    - judging/documenting-engineering.md
+    - judging/winning-portfolio.md
   - Teams:
     - teams/info.md
     - teams/20790.md
