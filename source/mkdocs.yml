@@ -7,12 +7,42 @@ nav:
   - Getting Started:
     - gettingstarted/overview.md
     - gettingstarted/firststeps.md
-    - gettingstarted/initrecruitment.md
-    - gettingstarted/initfundraising.md
-  - Design & CAD:
-    - design/overview.md
+    - gettingstarted/season-timeline.md
+    - gettingstarted/software-tools.md
+    - gettingstarted/purchasing-guide.md
+    - gettingstarted/common-mistakes.md
+    - gettingstarted/mvr.md
+  - Hardware:
+    - hardware/overview.md
+    - hardware/drivetrains.md
+    - hardware/intakes.md
+    - hardware/elevators.md
+    - hardware/scoring.md
+    - hardware/fasteners.md
+    - hardware/bearings.md
+    - hardware/motion.md
+    - hardware/stringing.md
+    - hardware/best-practices.md
+  - Electronics:
+    - electronics/overview.md
+    - electronics/rev-hardware.md
+    - electronics/hub-comparison.md
+    - electronics/power-distribution.md
+    - electronics/telemetry.md
+  - CAD:
+    - cad/overview.md
   - Programming:
     - programming/overview.md
+  - Outreach:
+    - outreach/overview.md
+    - outreach/team-brand.md
+  - Judging:
+    - judging/overview.md
+    - judging/awards.md
+    - judging/scoring.md
+    - judging/award-strategy.md
+    - judging/documenting-engineering.md
+    - judging/winning-portfolio.md
   - Teams:
     - teams/info.md
     - teams/20790.md
@@ -64,3 +94,7 @@ plugins:
       docs_path: source/docs/
   - git-revision-date-localized:
       enable_creation_date: true
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
