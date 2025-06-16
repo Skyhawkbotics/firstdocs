@@ -15,10 +15,13 @@
 ## Design Award
 
 ## Promote Award
+*Note: This award may not be given at all tournaments*  
 
 ## Compass Award
+*Note: This award may not be given at all tournaments*  
 
 ## Judges' Choice Award
+*Note: This award may not be given at all tournaments*  
 
 ## Winning Alliance Award
 
