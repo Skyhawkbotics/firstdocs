@@ -2,6 +2,11 @@
 
 Thank you for contributing to the FTC community docs! You are enhancing the knowledge base for current and future FTC teams, making FTC better for everyone.
 
+## Formatting Resources
+
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [Material for MkDocs Formatting Reference](https://squidfunk.github.io/mkdocs-material/reference/)
+
 ## Update an Existing Page
 
 1. Locate the page on the live website.
@@ -11,6 +16,21 @@ Thank you for contributing to the FTC community docs! You are enhancing the know
 5. Follow GitHub's instructions to create a pull request for your changes. For this type of change, set the target branch to `content`.
 
 Once you have made your changes, we will review them, and if they pass, we will merge your pull request and it will soon become part of the documentation.
+
+## Creat a New Page
+1. Go to `source/docs` folder in GitHub.
+2. Open the appropriate folder based on the topic of your new page.
+3. Create a new `.md` file.
+4. Title your file:
+   1. On line 1, put `# ` in front of your page title. 
+5. Populate your file with the information you wish to add.
+6. Once you are done, click the green "Commit changes" button.
+7. Optional: If you feel inclined to make your page visible, you may do so. Otherwise, skip this step and we can do this for you.
+   1. Open `source/mkdocs.yml`.
+   2. Locate the `nav` property (this is located at the top).
+   3. Add the path to your file in the appropriate location.
+   4. Once you are done, click the green "Commit changes" button.
+8. Follow GitHub's instructions to create a pull request for your changes. For this type of change, set the target branch to `content`.
 
 ## Adding Your Team Page
 
@@ -36,3 +56,7 @@ Once you have made your changes, we will review them, and if they pass, we will 
 6. Run the appropriate activation script for your virtual enviornment and system
 7. Change your directory to `source`
 8. Run `mkdocs serve`, and open the link it outputs in your browser.
+9. Make your desired changes.
+   - You may need to update `requirements.txt` if your changes require another Python library to build the website
+10. After verifying your changes work, push the code to your fork.
+11. Contribute your fork as a PR, and set the target branch to `config`.
