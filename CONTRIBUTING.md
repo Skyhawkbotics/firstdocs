@@ -17,6 +17,21 @@ Thank you for contributing to the FTC community docs! You are enhancing the know
 
 Once you have made your changes, we will review them, and if they pass, we will merge your pull request and it will soon become part of the documentation.
 
+## Creat a New Page
+1. Go to `source/docs` folder in GitHub.
+2. Open the appropriate folder based on the topic of your new page.
+3. Create a new `.md` file.
+4. Title your file:
+   1. On line 1, put `# ` in front of your page title. 
+5. Populate your file with the information you wish to add.
+6. Once you are done, click the green "Commit changes" button.
+7. Optional: If you feel inclined to make your page visible, you may do so. Otherwise, skip this step and we can do this for you.
+   1. Open `source/mkdocs.yml`.
+   2. Locate the `nav` property (this is located at the top).
+   3. Add the path to your file in the appropriate location.
+   4. Once you are done, click the green "Commit changes" button.
+8. Follow GitHub's instructions to create a pull request for your changes. For this type of change, set the target branch to `content`.
+
 ## Adding Your Team Page
 
 1. Go to `source/docs/teams` folder in GitHub.
