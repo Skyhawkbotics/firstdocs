@@ -9,7 +9,7 @@ Outreach is intentional, mission-driven, and more than just giving back. It is a
 Outreach comes in many forms, such as:
 
 #### Promoting STEM in the Community
-Sharing STEM concepts with the public to build interest, understanding and enthusiasm in the community, especially amoung younger students.
+Sharing STEM concepts with the public to build interest, understanding, and enthusiasm in the community, especially among younger students.
 
 !!! example "Examples"
 
@@ -20,11 +20,11 @@ Sharing STEM concepts with the public to build interest, understanding and enthu
     - Offer “Intro to Robotics” sessions for students or parents
 
 #### Mentoring & Supporting Other Teams
-Providing guidance, knowledge and assistance to other teams to help them succeed and grow. The teams you support don't have to be limited to rookie FTC teams, as your team can also mentor FLL and even FRC teams.
+Providing guidance, knowledge, and assistance to other teams to help them succeed and grow. The teams you support don't have to be limited to rookie FTC teams, as your team can also mentor FLL and even FRC teams.
 
 !!! example "Examples"
 
-    - Guide rookie FTC or FLL teams through build season
+    - Guide rookie FTC or FLL teams through the build season
     - Help new teams with programming, design, or judging prep
     - Share resources like CAD files, code libraries, or documentation tips
     - Host scrimmages, strategy sessions, or open-house pit tours
@@ -79,7 +79,7 @@ Outreach is more than just a good thing to do or helping others—it is an impor
 Strong outreach indicates to the judges that your team is well-rounded, mission-driven, and making a difference beyond the field.
 
 ### Awards
-meaningful outreach is a key component for winning judged awards, such as:
+Meaningful outreach is a key component for winning judged awards, such as:
 
 - **Inspire Award**: The Inspire Award is the highest award an FTC team can earn, as it judges outreach, engineering and documentation.
 - **Motivate Award:** The Motivate Award is judged based on how much the team sparks FIRST interest in others.
