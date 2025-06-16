@@ -56,3 +56,7 @@ Once you have made your changes, we will review them, and if they pass, we will 
 6. Run the appropriate activation script for your virtual enviornment and system
 7. Change your directory to `source`
 8. Run `mkdocs serve`, and open the link it outputs in your browser.
+9. Make your desired changes.
+   - You may need to update `requirements.txt` if your changes require another Python library to build the website
+10. After verifying your changes work, push the code to your fork.
+11. Contribute your fork as a PR, and set the target branch to `config`.
