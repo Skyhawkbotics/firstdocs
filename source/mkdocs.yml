@@ -33,6 +33,7 @@ nav:
     - cad/overview.md
   - Programming:
     - programming/overview.md
+    - programming/git.md
   - Outreach:
     - outreach/overview.md
     - outreach/award-strategy.md
