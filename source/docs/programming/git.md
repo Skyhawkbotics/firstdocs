@@ -17,11 +17,12 @@ Git is a version control system for your code that manages changes over time. It
 
 | Term                  | What It Means                                                                     |
 | --------------------- | --------------------------------------------------------------------------------- |
-| **Repository (repo)** | A project folder managed by Git                                                   |
-| **Commit**            | A saved snapshot of your code at a specific moment                                |
-| **Branch**            | A separate workspace for working on new features                                  |
-| **Merge**             | Combining changes from one branch into another                                    |
-| **Pull/Push**         | Downloading (pull) or uploading (push) changes between your local repo and GitHub |
+| Repository (repo)     | A project folder managed by Git                                                   |
+| Commit                | A saved snapshot of your code at a specific moment                                |
+| Branch                | A separate workspace for working on new features                                  |
+| Merge                 | Combining changes from one branch into another                                    |
+| Pull/Push             | Downloading (pull) or uploading (push) changes between your local repo and GitHub |
+| Organization          | A group of repositories all managed and owned by multiple people                  |
 
 ## Advantages of Git
 Using git, especially in the FIRST Tech Challenge has many advantages, such as:
@@ -30,3 +31,32 @@ Using git, especially in the FIRST Tech Challenge has many advantages, such as:
 - Making it easier and safer for multiple people to work on a codebase
 - Recording a history as the code evolves, which can potentially be used as evidence for awards
 - Making experimenting safer, as new ideas can be tried in a different branch without breaking the main code
+
+## Getting Started with Git for FTC
+
+Now that you've opted to use git for your code, let's get you and your programmers ready to contribute and make new code!
+
+!!! info "Written for FTC"
+
+    These instructions for setting up git are designed specifically for use in the FIRST Tech Challenge.
+
+### Setting Up GitHub
+
+1. Instruct your programmers to create a GitHub account if they haven't already.
+2. Create a GitHub organization.
+3. Invite the rest of your programmers to the organization.
+4. Create your repositories for your code.
+
+### Install Git
+
+Have your programmers follow these instructions to set up git on their system if they haven't already:
+
+1. [Download](https://git-scm.com/downloads) and install git for your operating system.
+
+    !!! tip "Download Git Even If Your IDE Has It"
+
+        Even if your IDE (such as Android Studio and Visual Studio Code) has git support built-in, it's still a good idea to have a dedicated install of git, as many IDEs don't support the full feature set of git.
+
+    !!! tip "Try a GUI"
+
+        Use a GUI if you aren't familiar with the command line interface, as the CLI can be more intimidating to use at first. You can find a list of GUIs [here](https://git-scm.com/downloads/guis). If you don't know which one to pick, start with [GitHub Desktop](https://desktop.github.com/download/).
