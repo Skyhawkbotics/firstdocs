@@ -60,3 +60,11 @@ Have your programmers follow these instructions to set up git on their system if
     !!! tip "Try a GUI"
 
         Use a GUI if you aren't familiar with the command line interface, as the CLI can be more intimidating to use at first. You can find a list of GUIs [here](https://git-scm.com/downloads/guis). If you don't know which one to pick, start with [GitHub Desktop](https://desktop.github.com/download/).
+
+## Organizing Your Repo
+
+* Keep your working code in your default branch (usually called `main`)
+* Create new branches for new ideas or major edits
+* Commit frequently, and write meaningful commit messages
+* Merge branches once testing is complete
+* Consider using GitHub issues for task tracking
