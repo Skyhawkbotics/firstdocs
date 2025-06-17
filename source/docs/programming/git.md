@@ -1,5 +1,12 @@
 # Using Git
 
+## Resources
+
+[Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)  
+[Git Website](https://git-scm.com/)
+
+## About Git
+
 Git is a version control system for your code that manages changes over time. It makes it easier for multiple people to work on code together, keeps track of your edits, and allows you to roll back to working code if something breaks.
 
 !!! info "Mind the Platform"
