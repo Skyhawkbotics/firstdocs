@@ -65,6 +65,8 @@ Have your programmers follow these instructions to set up git on their system if
 
         Use a GUI if you aren't familiar with the command line interface, as the CLI can be more intimidating to use at first. You can find a list of GUIs [here](https://git-scm.com/downloads/guis). If you don't know which one to pick, start with [GitHub Desktop](https://desktop.github.com/download/).
 
+2. Use the documentation for your client to sign into your GitHub account.
+
 ### Clone the Repo
 
 Now that you have a repository for your code, now it's time to save the code to the programmer's computer.
