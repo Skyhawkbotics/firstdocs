@@ -1,5 +1,9 @@
 # Using Git
 
+!!! info
+
+    This guide uses the git CLI, and GitHub Desktop. If you opt to use a different client, refer to its documentation.
+
 ## Resources
 
 [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)  
@@ -36,9 +40,9 @@ Using git, especially in the FIRST Tech Challenge has many advantages, such as:
 
 Now that you've opted to use git for your code, let's get you and your programmers ready to contribute and make new code!
 
-!!! info "Written for FTC"
+!!! warning "Written for FTC"
 
-    These instructions for setting up git are designed specifically for use in the FIRST Tech Challenge.
+    These instructions for setting up git are designed specifically for use in the FIRST Tech Challenge. They may not apply for other applications.
 
 ### Setting Up GitHub
 
@@ -61,24 +65,41 @@ Have your programmers follow these instructions to set up git on their system if
 
         Use a GUI if you aren't familiar with the command line interface, as the CLI can be more intimidating to use at first. You can find a list of GUIs [here](https://git-scm.com/downloads/guis). If you don't know which one to pick, start with [GitHub Desktop](https://desktop.github.com/download/).
 
+2. Use the documentation for your client to sign into your GitHub account.
+
 ### Clone the Repo
 
 Now that you have a repository for your code, now it's time to save the code to the programmer's computer.
 
 === "Git CLI"
 
+    ![Git Command List Menu](../assets/gitcli/clil.png#only-light)
+    ![Git Command List Menu](../assets/gitcli/clid.png#only-dark)
+
+    !!! info "Your Platform Matters"
+
+        You may need to look up specific instructions regarding Git and your terminal, depending on your operating system and shell.
+
     1. Open your terminal app.
-    2. Navigate to the folder you want to store the code in.
+    2. Run the necessary commands to navigate to the folder you want to store the code in.
     3. Copy the URL to the repository you want to clone.
     4. Run `git clone [pasted-link]`.
 
 === "Github Desktop"
 
+    ![GitHub Desktop Main View](../assets/ghdesktop/homel.png#only-light)
+    ![GitHub Desktop Main View](../assets/ghdesktop/homed.png#only-dark)
+
     1. Click the `Current Repository` option.
+        ![GitHub Desktop Repo Selector](../assets/ghdesktop/reposelector.png)
     2. Click `Add`, then `Clone Repository`.
+        ![GitHub Desktop Add Repo](../assets/ghdesktop/addrepol.png#only-light)
+        ![GitHub Desktop Add Repo](../assets/ghdesktop/addrepod.png#only-dark)
     3. Search for your repo in the list, or paste in the URL.
-    4. Set the path you want the repository to clone to.
-    5. Click `Clone`.
+        ![GitHub Desktop Clone Repo](../assets/ghdesktop/clonerepol.png#only-light)
+        ![GitHub Desktop Clone Repo](../assets/ghdesktop/clonerepod.png#only-dark)
+    5. Set the path you want the repository to clone to.
+    6. Click `Clone`.
 
 ## Organizing Your Repo
 
