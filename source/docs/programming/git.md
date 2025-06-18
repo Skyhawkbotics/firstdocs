@@ -61,10 +61,22 @@ Have your programmers follow these instructions to set up git on their system if
 
         Use a GUI if you aren't familiar with the command line interface, as the CLI can be more intimidating to use at first. You can find a list of GUIs [here](https://git-scm.com/downloads/guis). If you don't know which one to pick, start with [GitHub Desktop](https://desktop.github.com/download/).
 
+## Clone the Repo
+
+Now that you have a repository for your code, now it's time to save the code to the programmer's computer.
+
+If you are using the Git CLI:
+
+1. Open your terminal app
+2. Navigate to the folder you want to store the code in
+3. Copy the URL to the repository you want to clone, then run `git clone [pasted-link]`
+
 ## Organizing Your Repo
 
 * Keep your working code in your default branch (usually called `main`)
+* For your main branch, stick to a simple name, such as `main` or `master`, to keep things simple
 * Create new branches for new ideas or major edits
 * Commit frequently, and write meaningful commit messages
 * Merge branches once testing is complete
 * Consider using GitHub issues for task tracking
+* Use `.gitignore` to prevent unnecessary files from clogging up your repo, such as `DS-Store`.
