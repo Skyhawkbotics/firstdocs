@@ -1,5 +1,13 @@
 # Team Brand
 
+## Resources
+
+[Canva](https://canva.com/) - Graphic design tool for logos, posters, etc  
+[Google Fonts](https://fonts.google.com) - Free fonts  
+[Coolors](https://coolors.co) - Generate and save color palettes
+
+## About Team Branding
+
 Branding your team will allow you to become more recognizable in the community.
 
 ## Elements of Team Branding
