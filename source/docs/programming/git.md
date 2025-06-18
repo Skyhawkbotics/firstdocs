@@ -75,10 +75,15 @@ Now that you have a repository for your code, now it's time to save the code to 
 === "Github Desktop"
 
     1. Click the `Current Repository` option.
+        ![GitHub Desktop Repo Selector](../assets/ghdesktop/reposelector.png)
     2. Click `Add`, then `Clone Repository`.
+        ![GitHub Desktop Add Repo](../assets/ghdesktop/addrepol.png#only-light)
+        ![GitHub Desktop Add Repo](../assets/ghdesktop/addrepod.png#only-dark)
     3. Search for your repo in the list, or paste in the URL.
-    4. Set the path you want the repository to clone to.
-    5. Click `Clone`.
+        ![GitHub Desktop Clone Repo](../assets/ghdesktop/clonerepol.png#only-light)
+        ![GitHub Desktop Clone Repo](../assets/ghdesktop/clonerepod.png#only-dark)
+    5. Set the path you want the repository to clone to.
+    6. Click `Clone`.
 
 ## Organizing Your Repo
 
