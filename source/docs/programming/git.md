@@ -71,6 +71,9 @@ Now that you have a repository for your code, now it's time to save the code to 
 
 === "Git CLI"
 
+    ![Git Command List Menu](../assets/gitcli/clil.png#only-light)
+    ![Git Command List Menu](../assets/gitcli/clid.png#only-dark)
+
     !!! info "Your Platform Matters"
 
         You may need to look up specific instructions regarding Git and your terminal, depending on your operating system and shell.
@@ -81,6 +84,9 @@ Now that you have a repository for your code, now it's time to save the code to 
     4. Run `git clone [pasted-link]`.
 
 === "Github Desktop"
+
+    ![GitHub Desktop Main View](../assets/ghdesktop/homel.png#only-light)
+    ![GitHub Desktop Main View](../assets/ghdesktop/homed.png#only-dark)
 
     1. Click the `Current Repository` option.
         ![GitHub Desktop Repo Selector](../assets/ghdesktop/reposelector.png)
