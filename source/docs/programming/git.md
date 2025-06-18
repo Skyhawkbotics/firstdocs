@@ -61,15 +61,24 @@ Have your programmers follow these instructions to set up git on their system if
 
         Use a GUI if you aren't familiar with the command line interface, as the CLI can be more intimidating to use at first. You can find a list of GUIs [here](https://git-scm.com/downloads/guis). If you don't know which one to pick, start with [GitHub Desktop](https://desktop.github.com/download/).
 
-## Clone the Repo
+### Clone the Repo
 
 Now that you have a repository for your code, now it's time to save the code to the programmer's computer.
 
-If you are using the Git CLI:
+=== "Git CLI"
 
-1. Open your terminal app
-2. Navigate to the folder you want to store the code in
-3. Copy the URL to the repository you want to clone, then run `git clone [pasted-link]`
+    1. Open your terminal app.
+    2. Navigate to the folder you want to store the code in.
+    3. Copy the URL to the repository you want to clone.
+    4. Run `git clone [pasted-link]`.
+
+=== "Github Desktop"
+
+    1. Click the `Current Repository` option.
+    2. Click `Add`, then `Clone Repository`.
+    3. Search for your repo in the list, or paste in the URL.
+    4. Set the path you want the repository to clone to.
+    5. Click `Clone`.
 
 ## Organizing Your Repo
 
