@@ -1,5 +1,9 @@
 # Using Git
 
+!!! info
+
+    This guide uses the git CLI, and GitHub Desktop. If you opt to use a different client, refer to its documentation.
+
 ## Resources
 
 [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)  
@@ -36,9 +40,9 @@ Using git, especially in the FIRST Tech Challenge has many advantages, such as:
 
 Now that you've opted to use git for your code, let's get you and your programmers ready to contribute and make new code!
 
-!!! info "Written for FTC"
+!!! warning "Written for FTC"
 
-    These instructions for setting up git are designed specifically for use in the FIRST Tech Challenge.
+    These instructions for setting up git are designed specifically for use in the FIRST Tech Challenge. They may not apply for other applications.
 
 ### Setting Up GitHub
 
@@ -67,8 +71,12 @@ Now that you have a repository for your code, now it's time to save the code to 
 
 === "Git CLI"
 
+    !!! info "Your Platform Matters"
+
+        You may need to look up specific instructions regarding Git and your terminal, depending on your operating system and shell.
+
     1. Open your terminal app.
-    2. Navigate to the folder you want to store the code in.
+    2. Run the necessary commands to navigate to the folder you want to store the code in.
     3. Copy the URL to the repository you want to clone.
     4. Run `git clone [pasted-link]`.
 
