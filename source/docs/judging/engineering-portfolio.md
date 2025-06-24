@@ -15,6 +15,16 @@ Having an engineering portfolio will:
 
 ### Cover Page
 
+Your cover page is the first thing the judges will see. Generally, you should include:
+
+* Team name, number and logo
+* Season theme
+* Team photo
+
+!!! warning "Cover Page is Not Judged!"
+
+    Judges are not supposed to judge your cover page, so don't put any content you want judged on it. However, putting a bit of time into it can make your team look more professional, so don't disregard it completely.
+
 ### Team Introduction
 
 ### Robot Design Process
