@@ -2,11 +2,11 @@
 
 !!! abstract
 
-    This page teaches FTC teams how to best use git for their robot code.
+    This page teaches FTC teams how to best use Git for their robot code.
 
 !!! note
 
-    This guide uses the git CLI, and GitHub Desktop. If you opt to use a different client, refer to its documentation.
+    This guide uses the Git CLI, and GitHub Desktop. If you opt to use a different client, refer to its documentation.
 
 ## Resources
 
@@ -19,7 +19,7 @@ Git is a version control system for your code that manages changes over time. It
 
 !!! info "Mind the Platform"
 
-    This guide assumes you are using GitHub as your git server. If you are using a different platform (such as GitLab), most of the git-related steps are still the same, but there may be some variations.
+    This guide assumes you are using GitHub as your Git server. If you are using a different platform (such as GitLab), most of the Git-related steps are still the same, but there may be some variations.
 
 ## Git Lingo
 
@@ -33,7 +33,7 @@ Git is a version control system for your code that manages changes over time. It
 | Organization          | A group of repositories all managed and owned by multiple people                  |
 
 ## Advantages of Git
-Using git, especially in the FIRST Tech Challenge has many advantages, such as:
+Using Git, especially in the FIRST Tech Challenge has many advantages, such as:
 
 - Allowing for quick and easy rollbacks if a mistake is made
 - Making it easier and safer for multiple people to work on a codebase
@@ -42,11 +42,11 @@ Using git, especially in the FIRST Tech Challenge has many advantages, such as:
 
 ## Getting Started with Git for FTC
 
-Now that you've opted to use git for your code, let's get you and your programmers ready to contribute and make new code!
+Now that you've opted to use Git for your code, let's get you and your programmers ready to contribute and make new code!
 
 !!! warning "Written for FTC"
 
-    These instructions for setting up git are designed specifically for use in the FIRST Tech Challenge. They may not apply for other applications.
+    These instructions for setting up Git are designed specifically for use in the FIRST Tech Challenge. They may not apply for other applications.
 
 ### Setting Up GitHub
 
@@ -57,13 +57,13 @@ Now that you've opted to use git for your code, let's get you and your programme
 
 ### Install Git
 
-Have your programmers follow these instructions to set up git on their system if they haven't already:
+Have your programmers follow these instructions to set up Git on their system if they haven't already:
 
-1. [Download](https://git-scm.com/downloads) and install git for your operating system.
+1. [Download](https://git-scm.com/downloads) and install Git for your operating system.
 
     !!! tip "Download Git Even If Your IDE Has It"
 
-        Even if your IDE (such as Android Studio and Visual Studio Code) has git support built-in, it's still a good idea to have a dedicated install of git, as many IDEs don't support the full feature set of git.
+        Even if your IDE (such as Android Studio and Visual Studio Code) has Git support built-in, it's still a good idea to have a dedicated install of Git, as many IDEs don't support the full feature set of Git.
 
     !!! tip "Try a GUI"
 
@@ -75,7 +75,7 @@ Have your programmers follow these instructions to set up git on their system if
 
 !!! warning "Keep One Clone!"
 
-    If you have already cloned your repository in your IDE (or another git client), do not clone the repository again. Instead, add the existing repository to your git client. If you have multiple git clients installed, you have to add the repository to each client.
+    If you have already cloned your repository in your IDE (or another Git client), do not clone the repository again. Instead, add the existing repository to your Git client. If you have multiple Git clients installed, you have to add the repository to each client.
 
 Now that you have a repository for your code, now it's time to save the code to the programmer's computer.
 
@@ -115,7 +115,7 @@ Now that you have a repo, it is time to put it to use.
 
 !!! info
 
-    This part of the guide will assume you are using your repo for your robot code. However even for other projects you and your team make on git, it is still a good idea to follow our advice.
+    This part of the guide will assume you are using your repo for your robot code. However even for other projects you and your team make on Git, it is still a good idea to follow our advice.
 
 ### Using Branches
 
