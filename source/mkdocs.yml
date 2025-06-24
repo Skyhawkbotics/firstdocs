@@ -55,6 +55,8 @@ theme:
   favicon: assets/favicon.svg
   icon:
     repo: fontawesome/brands/github
+    admonition:
+      tip: material/lightbulb-on
   name: material
   features:
     - content.action.edit
