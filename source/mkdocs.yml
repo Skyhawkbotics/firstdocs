@@ -62,6 +62,7 @@ theme:
     - navigation.path
     - navigation.footer
     - content.tabs.link
+    - content.code.copy
   font:
     text: Oxanium
   palette:
@@ -94,6 +95,13 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - admonition
   - pymdownx.details
   - pymdownx.superfences

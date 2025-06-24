@@ -91,7 +91,10 @@ Now that you have a repository for your code, now it's time to save the code to 
     1. Open your terminal app.
     2. Run the necessary commands to navigate to the folder you want to store the code in.
     3. Copy the URL to the repository you want to clone.
-    4. Run `git clone [pasted-link]`.
+    4. Run:
+        ``` shell
+        git clone pasted-link
+        ```
 
 === "Github Desktop"
 
@@ -106,8 +109,8 @@ Now that you have a repository for your code, now it's time to save the code to 
     3. Search for your repo in the list, or paste in the URL.
         ![GitHub Desktop Clone Repo](../assets/ghdesktop/clonerepol.png#only-light)
         ![GitHub Desktop Clone Repo](../assets/ghdesktop/clonerepod.png#only-dark)
-    5. Set the path you want the repository to clone to.
-    6. Click `Clone`.
+    4. Set the path you want the repository to clone to.
+    5. Click `Clone`.
 
 ## Using Your Repo
 
