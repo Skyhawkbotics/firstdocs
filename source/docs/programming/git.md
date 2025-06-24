@@ -161,6 +161,10 @@ In some cases, you may have multiple people working on a feature at once. In thi
 6. Once all tasks are complete, test the feature branch.
 7. Once the feature branch is stable, merge it into `main`.
 
+!!! warning "Prone to Merge Conflicts"
+
+    Only do this if you or someone in your team is comfortable with resolving merge conflicts, as having multiple people work on one part of a project can result in conflicting changes.
+
 ### Commiting
 
 ### Merging
