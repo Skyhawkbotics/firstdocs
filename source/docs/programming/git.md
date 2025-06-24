@@ -1,6 +1,10 @@
 # Using Git
 
-!!! info
+!!! abstract
+
+    This page teaches FTC teams how to best use git for their robot code.
+
+!!! note
 
     This guide uses the git CLI, and GitHub Desktop. If you opt to use a different client, refer to its documentation.
 
