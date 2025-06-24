@@ -10,3 +10,17 @@ Having an engineering portfolio will:
 - Summarize your team's story, skills and impact
 - Makes your team eligible for certain awards
 - Makes your team look organized, prepared, and professional
+
+## Parts to Include
+
+### Cover Page
+
+### Team Introduction
+
+### Robot Design Process
+
+### Programming & Control
+
+### Outreach & Community Impact
+
+### Team Development
