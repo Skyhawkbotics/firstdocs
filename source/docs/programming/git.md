@@ -73,6 +73,10 @@ Have your programmers follow these instructions to set up git on their system if
 
 ### Clone the Repo
 
+!!! warning "Keep One Clone!"
+
+    If you have already cloned your repository in your IDE (or another git client), do not clone the repository again. Instead, add the existing repository to your git client. If you have multiple git clients installed, you have to add the repository to each client.
+
 Now that you have a repository for your code, now it's time to save the code to the programmer's computer.
 
 === "Git CLI"
