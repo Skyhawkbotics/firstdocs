@@ -151,6 +151,16 @@ When you wish to make a change to the code, create a new branch for said change.
 
     By following these steps, you didn't touch your `main` branch until the changes were complete.
 
+In some cases, you may have multiple people working on a feature at once. In this case,
+
+1. Break down the feature into smaller tasks.
+2. Create a branch for the feature.
+3. From the new branch, create branches for each of the tasks.
+4. Delegate the branches to different programmers.
+5. Once a programmer knows their part of the feature works, have them merge their code into the feature branch. Each programmer should do this for their task.
+6. Once all tasks are complete, test the feature branch.
+7. Once the feature branch is stable, merge it into `main`.
+
 ### Commiting
 
 ### Merging
