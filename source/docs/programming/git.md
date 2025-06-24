@@ -109,11 +109,56 @@ Now that you have a repository for your code, now it's time to save the code to 
     5. Set the path you want the repository to clone to.
     6. Click `Clone`.
 
+## Using Your Repo
+
+Now that you have a repo, it is time to put it to use.
+
+!!! info
+
+    This part of the guide will assume you are using your repo for your robot code. However even for other projects you and your team make on git, it is still a good idea to follow our advice.
+
+### Using Branches
+
+Branches allow you to work on new code and features while leaving your working code untouched. As a result, it makes it easier to experiment with new features without disrupting the working code. Using branches effectively is key to ensuring easy collaboration and keeping the robot code stable.
+
+!!! question "What if I am the only one working on the repo?"
+
+    You should still use branches as it allows you to safely experiment with the code. Additionally, as you are in a team, you will likely have future collaborators.
+
+
+
+Your `main` branch is where you should keep your working and stable code. If you are working on the robot's code and sudddenly you need to use the stable code for some reason (troubleshooting, outreach, competition, etc.), you should always be able to switch `main` and push your working code.
+
+!!! info
+
+    Your `main` branch may also go by a different name, such as `master`. For the sake of simplicity, we will assume your safe branch is called `main`.
+
+!!! danger "No Unfinished Work In `main`!"
+
+    **Never** allow incomplete files to end up in `main`. On the robot code, errors in just one file can render the entire codebase useless, since just a single bad file can and **will** cause the Java build to fail.
+
+When you wish to make a change to the code, create a new branch for said change. Make sure your branch names have a meaning. After switching to your new branch, you can safely change or build up your feature without the risk of breaking your working code. Once you have tested your changes and you know it works, you can merge it into `main`.
+
+!!! example "Improving The Auto"
+
+    Let's say your team wants you to improve the autonomous of the robot.
+
+    1. Create a new branch from `main` called `auto-improvement`.
+    2. Switch to `auto-improvement`.
+    3. Make changes and commit as needed.
+    4. Test your code to ensure it's robust and complete.
+    5. Once it's tested and you know it works, merge your code into `main`.
+
+    By following these steps, you didn't touch your `main` branch until the changes were complete.
+
+### Commiting
+
+### Merging
+
+### Pull Requests
+
 ## Organizing Your Repo
 
-* Keep your working code in your default branch (usually called `main`)
-* For your main branch, stick to a simple name, such as `main` or `master`, to keep things simple
-* Create new branches for new ideas or major edits
 * Commit frequently, and write meaningful commit messages
 * Merge branches once testing is complete
 * Consider using GitHub issues for task tracking
