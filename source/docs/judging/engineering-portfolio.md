@@ -27,6 +27,12 @@ Your cover page is the first thing the judges will see. Generally, you should in
 
 ### Team Introduction
 
+The team introduction is how the judges get to know your team. Generally, this should be the first section of your engineering portfolio. Additionally, in this section, you should consider including:
+
+* A brief summary of who your team is
+* Team structure
+* Member roles
+
 ### Robot Design Process
 
 ### Programming & Control
