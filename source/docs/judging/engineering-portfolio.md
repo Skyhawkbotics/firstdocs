@@ -35,6 +35,17 @@ The team introduction is how the judges get to know your team. Generally, this s
 
 ### Robot Design Process
 
+This section of the engineering portfolio gives the judges an insight on how you developed your robot. Generally, you should include:
+
+* Engineering goals
+* Sketches, CAD screenshots, subsystem breakdowns
+* Iteration timeline or challenges solved
+* Lessons learned
+
+!!! tip "Show, Don't Tell"
+
+    Avoid writing long blocks of text to describe a part of the robot. Instead, show pictures, sketches, and/or CAD screenshots. Doing so makes it easier for the judges to read your engineering portfolio.
+
 ### Programming & Control
 
 ### Outreach & Community Impact
