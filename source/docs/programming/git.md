@@ -156,6 +156,20 @@ When you wish to make a change to the code, create a new branch for said change.
 
 ### Commiting
 
+A commit is a snapshot of your code. When you make a commit, Git will record:
+
+* What was changed
+* Who made the change
+* The time and date it happened
+* A written message explaining the change
+
+To create a commit of your code in the Git CLI, run:
+
+``` shell
+git add all
+git commit -m "Your commit messsage"
+```
+
 ### Merging
 
 ### Pull Requests
