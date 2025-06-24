@@ -35,7 +35,7 @@ The team introduction is how the judges get to know your team. Generally, this s
 
 ### Robot Design Process
 
-This section of the engineering portfolio gives the judges an insight on how you developed your robot. Generally, you should include:
+This section of the engineering portfolio gives the judges an insight on how you developed the hardware your robot. Generally, you should include:
 
 * Engineering goals
 * Sketches, CAD screenshots, subsystem breakdowns
@@ -47,6 +47,16 @@ This section of the engineering portfolio gives the judges an insight on how you
     Avoid writing long blocks of text to describe a part of the robot. Instead, show pictures, sketches, and/or CAD screenshots. Doing so makes it easier for the judges to read your engineering portfolio.
 
 ### Programming & Control
+
+The programming section of the engineering portfolio shows the judges the stuff they can't see—the code that runs the robot. In this section, you should generally include:
+
+* Robot controls
+* Usage of sensors
+* Annotated code snippets
+
+!!! tip "Automating TeleOp?"
+
+    If you are using macros, sensors, or other tools to assist the drivers during the TeleOp period, make sure to make these features clear, as they can increase the chances of your team winning awards such as the Innovate Award.
 
 ### Outreach & Community Impact
 
