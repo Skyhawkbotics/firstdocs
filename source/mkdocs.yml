@@ -63,6 +63,7 @@ theme:
     - navigation.footer
     - content.tabs.link
     - content.code.copy
+    - content.tabs.link
   font:
     text: Oxanium
   palette:

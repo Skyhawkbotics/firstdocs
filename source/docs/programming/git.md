@@ -96,7 +96,7 @@ Now that you have a repository for your code, now it's time to save the code to 
         git clone pasted-link
         ```
 
-=== "Github Desktop"
+=== "GitHub Desktop"
 
     ![GitHub Desktop Main View](../assets/ghdesktop/homel.png#only-light)
     ![GitHub Desktop Main View](../assets/ghdesktop/homed.png#only-dark)
