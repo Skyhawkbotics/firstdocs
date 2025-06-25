@@ -37,13 +37,19 @@ nav:
   - Outreach:
     - outreach/overview.md
     - outreach/team-brand.md
+    - outreach/planning.md
+    - outreach/documentation.md
+    - outreach/highimpact.md
+    - outreach/messaging.md
+    - outreach/templates.md
   - Judging:
     - judging/overview.md
+    - judging/session.md
     - judging/awards.md
     - judging/scoring.md
     - judging/award-strategy.md
     - judging/documenting-engineering.md
-    - judging/winning-portfolio.md
+    - judging/engineering-portfolio.md
   - Teams:
     - teams/info.md
     - teams/20790.md
@@ -58,12 +64,16 @@ theme:
   favicon: assets/favicon.svg
   icon:
     repo: fontawesome/brands/github
+    admonition:
+      tip: material/lightbulb-on
   name: material
   features:
     - content.action.edit
     - navigation.tabs
     - navigation.path
     - navigation.footer
+    - content.tabs.link
+    - content.code.copy
     - content.tabs.link
   font:
     text: Oxanium
@@ -97,6 +107,15 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - md_in_html
+  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
