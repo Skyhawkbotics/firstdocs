@@ -92,21 +92,23 @@ Now that you have a repository for your code, now it's time to save the code to 
     2. Run the necessary commands to navigate to the folder you want to store the code in.
     3. Copy the URL to the repository you want to clone.
     4. Run:
-        ``` shell
-        git clone pasted-link
+        ``` {.shell .annotate}
+        git clone pasted-link #(1)!
         ```
 
-=== "Github Desktop"
+        1. Replace `pasted-link` with the link to your repository.
+
+=== "GitHub Desktop"
 
     ![GitHub Desktop Main View](../assets/ghdesktop/homel.png#only-light)
     ![GitHub Desktop Main View](../assets/ghdesktop/homed.png#only-dark)
 
-    1. Click the `Current Repository` option.
+    1. Click the `Current Repository` option.  
         ![GitHub Desktop Repo Selector](../assets/ghdesktop/reposelector.png)
-    2. Click `Add`, then `Clone Repository`.
+    2. Click `Add`, then `Clone Repository`.  
         ![GitHub Desktop Add Repo](../assets/ghdesktop/addrepol.png#only-light)
         ![GitHub Desktop Add Repo](../assets/ghdesktop/addrepod.png#only-dark)
-    3. Search for your repo in the list, or paste in the URL.
+    3. Search for your repo in the list, or paste in the URL.  
         ![GitHub Desktop Clone Repo](../assets/ghdesktop/clonerepol.png#only-light)
         ![GitHub Desktop Clone Repo](../assets/ghdesktop/clonerepod.png#only-dark)
     4. Set the path you want the repository to clone to.
@@ -163,12 +165,28 @@ A commit is a snapshot of your code. When you make a commit, Git will record:
 * The time and date it happened
 * A written message explaining the change
 
-To create a commit of your code in the Git CLI, run:
+Once you have made a logical change, it is now time to commit your code.
 
-``` shell
-git add all
-git commit -m "Your commit messsage"
-```
+=== "Git CLI"
+
+    To create a commit of your code in the Git CLI, run:
+
+    ``` {.shell .annotate}
+    git add all #(1)!
+    git commit -m "Your commit messsage" #(2)!
+    ```
+
+    1. Running this line as-is will add all changes and files to the commit. If this behavior is not desired, replace `all` with the file you wish to add.
+    2. Replace `Your commit message` with the message you wish to attatch to the commit.
+
+   
+=== "GitHub Desktop"
+
+    To create a commit of your code in GitHub Desktop,
+
+    1. Select the files you wish to add to your commit in the left pane.
+    2. Write your commit message in the summary field. You can optionally add an extended description in the box below.
+    3. Click the blue commit button.
 
 ### Merging
 

@@ -73,6 +73,7 @@ theme:
     - navigation.footer
     - content.tabs.link
     - content.code.copy
+    - content.tabs.link
   font:
     text: Oxanium
   palette:
@@ -112,6 +113,8 @@ markdown_extensions:
       auto_title: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - md_in_html
+  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
