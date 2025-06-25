@@ -165,7 +165,39 @@ A commit is a snapshot of your code. When you make a commit, Git will record:
 * The time and date it happened
 * A written message explaining the change
 
-Once you have made a logical change, it is now time to commit your code.
+Generally, you should commit after making a working, logical change in your code. You should be able to fall back on your previous commit if something breaks. It's better to make too many commits than too little, as you can always squash commits later.
+
+??? question "What is a squash?"
+
+    When you squash commits, you are combining multiple commits into one. It's a good way to clean up your commit history if you commited too many smaller changes as part of a larger logical change. Consult the documentation for your Git client for information on how to squash commits.
+
+!!! example "Positive Examples On When To Commit"
+
+    * Fixed a bug or problem in the code
+    * Added a new path to the auto
+    * Updated the code to support a change in the hardware
+
+!!! warning "Don't Dump Your Work In One Commit!"
+
+    Make sure to commit small, testable changes. That way if something breaks, it's easier to determine what went wrong and how to fix it. Additionally, it makes it easier to roll back your code during development if something goes wrong. Remember, if you truly made too many commits, you can always squash them later.
+
+Once you have made a logical change, it is now time to commit your code and write a message. Here are some guidelines on writing commit messages:
+
+* Explain what you changed, and why you changed it
+* Use present tense, not past tense
+
+Remember, you are leaving a note for not just yourself, but for your teammates, even if they don't code. For example, your drivers may want to know what changed between their practice sessions, or your engineers may want to know how you changed the usage of their component. Additionally, keeping a detailed history of your code will make it easier for your team to write about your code's history in the engineering portfolio, which can be very helpful for awards such as the Control Award.
+
+!!! tip "Don't Disregard Commit Messages Even If You Plan To Sqash"
+
+    Even if you plan on squashing your commits later, it is still a good idea to write descriptive commit messages, as some git clients will preserve them in the extended description. Additionally, it will make it easier to know which commits to squash together.
+
+!!! example "Positive Commit Message Examples"
+
+    * Add PID constants for drivetrain turning
+    * Fix the inverted controls after a hardware update
+
+Now that you have changes you want to commit, and you know how to write a commit message, it's now time to actually commit your changes.
 
 === "Git CLI"
 
@@ -185,12 +217,26 @@ Once you have made a logical change, it is now time to commit your code.
     To create a commit of your code in GitHub Desktop,
 
     1. Select the files you wish to add to your commit in the left pane.
+   
+        ??? tip "Staging Individual Lines"
+
+            You can include or exclude individual lines of code by clicking on the file itself (not the checkbox) and clicking the checkbox next to the line(s) of code.
+
     2. Write your commit message in the summary field. You can optionally add an extended description in the box below.
+
+        !!! tip "Generating Commit Messages Automatically"
+
+            GitHub Copilot can automatically generate a commit message for you. To do so, make sure the changes you want to commit are already selected, then press the Copilot icon to automatically generate a summary and description. Make sure to review the text it writes.
+
     3. Click the blue commit button.
 
 ### Merging
 
+Once you have finished your change and you know it works properly, it is now time to merge your changes upstream to combine it with the working code. When you merge your code from another branch, you are simply adding the *changes* from your branch to the target branch.
+
 ### Pull Requests
+
+A pull request (PR) is a formal method of merging code upstream. For teams new to GitHub, this is the safest way to ensure your merge doesn't break the code, especially if other changes have been taking place at the same time, as you can simply just checkout the PR and test it.
 
 ## Organizing Your Repo
 
