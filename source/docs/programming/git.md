@@ -236,6 +236,8 @@ Once you have finished your change and you know it works properly, it is now tim
 
 ### Pull Requests
 
+A pull request (PR) is a formal method of merging code upstream. For teams new to GitHub, this is the safest way to ensure your merge doesn't break the code, especially if other changes have been taking place at the same time, as you can simply just checkout the PR and test it.
+
 ## Organizing Your Repo
 
 * Commit frequently, and write meaningful commit messages
