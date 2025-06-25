@@ -33,10 +33,15 @@ nav:
     - cad/overview.md
   - Programming:
     - programming/overview.md
+    - programming/git.md
   - Outreach:
     - outreach/overview.md
-    - outreach/outreach-ideas.md
     - outreach/team-brand.md
+    - outreach/planning.md
+    - outreach/documentation.md
+    - outreach/highimpact.md
+    - outreach/messaging.md
+    - outreach/templates.md
   - Judging:
     - judging/overview.md
     - judging/session.md
@@ -52,7 +57,7 @@ site_name: FTC Community Docs
 repo_url: https://github.com/Skyhawkbotics/firstdocs
 repo_name: Skyhawkbotics/firstdocs
 site_dir: ../site
-edit_uri: edit/setup/source/docs/
+edit_uri: edit/main/source/docs/
 copyright: Maintained by Hawkbot1cs
 theme:
   logo: assets/logo.svg
@@ -65,6 +70,9 @@ theme:
     - navigation.tabs
     - navigation.path
     - navigation.footer
+    - content.tabs.link
+    - content.code.copy
+    - content.tabs.link
   font:
     text: Oxanium
   palette:
@@ -92,11 +100,22 @@ theme:
 plugins:
   - git-committers:
       repository: Skyhawkbotics/firstdocs
-      branch: dev
+      branch: main
       docs_path: source/docs/
   - git-revision-date-localized:
       enable_creation_date: true
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - md_in_html
+  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
