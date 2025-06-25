@@ -92,9 +92,11 @@ Now that you have a repository for your code, now it's time to save the code to 
     2. Run the necessary commands to navigate to the folder you want to store the code in.
     3. Copy the URL to the repository you want to clone.
     4. Run:
-        ``` shell
-        git clone pasted-link
+        ``` {.shell .annotate}
+        git clone pasted-link #(1)!
         ```
+
+        1. Replace `pasted-link` with the link to your repository.
 
 === "GitHub Desktop"
 
@@ -169,10 +171,15 @@ Once you have made a logical change, it is now time to commit your code.
 
     To create a commit of your code in the Git CLI, run:
 
-    ``` shell
-    git add all
-    git commit -m "Your commit messsage"
+    ``` {.shell .annotate}
+    git add all #(1)!
+    git commit -m "Your commit messsage" #(2)!
     ```
+
+    1. Running this line as-is will add all changes and files to the commit. If this behavior is not desired, replace `all` with the file you wish to add.
+    2. Replace `Your commit message` with the message you wish to attatch to the commit.
+
+   
 === "GitHub Desktop"
 
     To create a commit of your code in GitHub Desktop,

@@ -103,6 +103,8 @@ markdown_extensions:
       auto_title: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - md_in_html
+  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
