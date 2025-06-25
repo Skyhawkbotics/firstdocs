@@ -89,3 +89,7 @@ This award is given to the teams in the final match's winning alliance.
 
 ## Finalist Alliance Award
 This award is given to the teams in the alliances represented in the final match.
+
+!!! warning
+
+    Some events do not advance all finalist alliances, and will only advance the winning alliance. Consult the game manual for more information about advancement for your upcoming events.
