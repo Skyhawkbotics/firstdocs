@@ -223,6 +223,11 @@ Now that you have changes you want to commit, and you know how to write a commit
             You can include or exclude individual lines of code by clicking on the file itself (not the checkbox) and clicking the checkbox next to the line(s) of code.
 
     2. Write your commit message in the summary field. You can optionally add an extended description in the box below.
+
+        !!! tip "Generating Commit Messages Automatically"
+
+            GitHub Copilot can automatically generate a commit message for you. To do so, make sure the changes you want to commit are already selected, then press the Copilot icon to automatically generate a summary and description. Make sure to review the text it writes.
+
     3. Click the blue commit button.
 
 ### Merging
