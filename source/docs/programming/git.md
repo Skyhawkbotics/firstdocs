@@ -232,6 +232,8 @@ Now that you have changes you want to commit, and you know how to write a commit
 
 ### Merging
 
+Once you have finished your change and you know it works properly, it is now time to merge your changes upstream to combine it with the working code. When you merge your code from another branch, you are simply adding the *changes* from your branch to the target branch.
+
 ### Pull Requests
 
 ## Organizing Your Repo
