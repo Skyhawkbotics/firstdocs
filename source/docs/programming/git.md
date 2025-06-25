@@ -163,12 +163,23 @@ A commit is a snapshot of your code. When you make a commit, Git will record:
 * The time and date it happened
 * A written message explaining the change
 
-To create a commit of your code in the Git CLI, run:
+Once you have made a logical change, it is now time to commit your code.
 
-``` shell
-git add all
-git commit -m "Your commit messsage"
-```
+=== "Git CLI"
+
+    To create a commit of your code in the Git CLI, run:
+
+    ``` shell
+    git add all
+    git commit -m "Your commit messsage"
+    ```
+=== "GitHub Desktop"
+
+    To create a commit of your code in GitHub Desktop,
+
+    1. Select the files you wish to add to your commit in the left pane.
+    2. Write your commit message in the summary field. You can optionally add an extended description in the box below.
+    3. Click the blue commit button.
 
 ### Merging
 
