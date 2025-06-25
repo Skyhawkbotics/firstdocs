@@ -44,9 +44,30 @@ The Innovate Award recognizes unique and creative technical innovations, such as
 
 The Control Award recognizes excellence in robot control, sensor integration, and consistent performance.
 
+!!! tip "Tips to Help Win the Control Award"
+
+    * Document code structure, sensor use, and strategic algorithms.
+    * Show how your software assists the drivers during TeleOp.
+    * Provide annotated code snippets or flowcharts.
+
 ## Motivate Award
 
+The Motivate Award recognizes teams that actively promotes FIRST, and recruits new participants into STEM.
+
+!!! tip "Tips to Help Win the Motivate Award"
+
+    * Maintain a strong public presence, such as through social media and events.
+    * Showcase your team's outreach and recruitment efforts during your interviews and on your engineering portfolio.
+
 ## Design Award
+
+The Design Award focuses on the form of the form vs. function. It recognizes how organized, maintainable and aesthetically pleasing your robot is.
+
+!!! tip "Tips to Help Win the Design Award"
+
+    * Show a variety of CAD renders, such as exploded views, high-quality renders, and annotated CAD screenshots.
+    * Don't let the robot become a jumble of wires. Instead, use cable management tools to make the robot cleaner and more organized. Remember, the form of your robot is being judged for the design award.
+
 
 ## Promote Award
 !!! info
