@@ -56,7 +56,7 @@ The programming section of the engineering portfolio shows the judges the stuff 
 
 !!! tip "Automating TeleOp?"
 
-    If you are using macros, sensors, or other tools to assist the drivers during the TeleOp period, make sure to make these features clear, as they can increase the chances of your team winning awards such as the Innovate Award.
+    If you are using macros, sensors, or other tools to assist the drivers during the TeleOp period, make sure to make these features clear, as they can increase the chances of your team winning awards such as the Control Award.
 
 ### Outreach & Community Impact
 
