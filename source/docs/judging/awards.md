@@ -15,13 +15,19 @@
 ## Design Award
 
 ## Promote Award
-*Note: This award may not be given at all tournaments*  
+!!! info
+
+    This award may not be given at all tournaments.
 
 ## Compass Award
-*Note: This award may not be given at all tournaments*  
+!!! info
+
+    This award may not be given at all tournaments.
 
 ## Judges' Choice Award
-*Note: This award may not be given at all tournaments*  
+!!! info
+
+    This award may not be given at all tournaments.
 
 ## Winning Alliance Award
 This award is given to the teams in the final match's winning alliance.
