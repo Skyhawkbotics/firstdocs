@@ -186,7 +186,7 @@ Once you have made a logical change, it is now time to commit your code and writ
 * Explain what you changed, and why you changed it
 * Use present tense, not past tense
 
-Remember, you are leaving a note for not just yourself, but for your teammates, even if they don't code. For example, your drivers may want to know what changed between their practice sessions, or your engineers may want to know how you changed the usage of their component.
+Remember, you are leaving a note for not just yourself, but for your teammates, even if they don't code. For example, your drivers may want to know what changed between their practice sessions, or your engineers may want to know how you changed the usage of their component. Additionally, keeping a detailed history of your code will make it easier for your team to write about your code's history in the engineering portfolio, which can be very helpful for awards such as the Control Award.
 
 !!! tip "Don't Disregard Commit Messages Even If You Plan To Sqash"
 
