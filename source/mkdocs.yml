@@ -4,51 +4,51 @@ nav:
     - overview/aboutfirst.md
     - overview/aboutftc.md
     - overview/pastseasons.md
-  - Getting Started:
-    - gettingstarted/overview.md
-    - gettingstarted/firststeps.md
-    - gettingstarted/season-timeline.md
-    - gettingstarted/software-tools.md
-    - gettingstarted/purchasing-guide.md
-    - gettingstarted/common-mistakes.md
-    - gettingstarted/mvr.md
-  - Hardware:
-    - hardware/overview.md
-    - hardware/drivetrains.md
-    - hardware/intakes.md
-    - hardware/elevators.md
-    - hardware/scoring.md
-    - hardware/fasteners.md
-    - hardware/bearings.md
-    - hardware/motion.md
-    - hardware/stringing.md
-    - hardware/best-practices.md
-  - Electronics:
-    - electronics/overview.md
-    - electronics/rev-hardware.md
-    - electronics/hub-comparison.md
-    - electronics/power-distribution.md
-    - electronics/telemetry.md
+  # - Getting Started:
+  #   - gettingstarted/overview.md
+  #   - gettingstarted/firststeps.md
+  #   - gettingstarted/season-timeline.md
+  #   - gettingstarted/software-tools.md
+  #   - gettingstarted/purchasing-guide.md
+  #   - gettingstarted/common-mistakes.md
+  #   - gettingstarted/mvr.md
+  # - Hardware:
+  #   - hardware/overview.md
+  #   - hardware/drivetrains.md
+  #   - hardware/intakes.md
+  #   - hardware/elevators.md
+  #   - hardware/scoring.md
+  #   - hardware/fasteners.md
+  #   - hardware/bearings.md
+  #   - hardware/motion.md
+  #   - hardware/stringing.md
+  #   - hardware/best-practices.md
+  # - Electronics:
+  #   - electronics/overview.md
+  #   - electronics/rev-hardware.md
+  #   - electronics/hub-comparison.md
+  #   - electronics/power-distribution.md
+  #   - electronics/telemetry.md
   - CAD:
     - cad/overview.md
   - Programming:
-    - programming/overview.md
+    # - programming/overview.md
     - programming/git.md
   - Outreach:
     - outreach/overview.md
     - outreach/team-brand.md
-    - outreach/planning.md
-    - outreach/documentation.md
-    - outreach/highimpact.md
-    - outreach/messaging.md
-    - outreach/templates.md
+    # - outreach/planning.md
+    # - outreach/documentation.md
+    # - outreach/highimpact.md
+    # - outreach/messaging.md
+    # - outreach/templates.md
   - Judging:
     - judging/overview.md
     - judging/session.md
     - judging/awards.md
-    - judging/scoring.md
-    - judging/award-strategy.md
-    - judging/documenting-engineering.md
+    # - judging/scoring.md
+    # - judging/award-strategy.md
+    # - judging/documenting-engineering.md
     - judging/engineering-portfolio.md
   - Teams:
     - teams/info.md
