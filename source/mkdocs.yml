@@ -31,6 +31,7 @@ nav:
     - electronics/telemetry.md
   - CAD:
     - cad/overview.md
+    - cad/projectmanagement.md
   - Programming:
     - programming/overview.md
   - Outreach:
