@@ -32,6 +32,7 @@ nav:
   - CAD:
     - cad/overview.md
     - cad/projectmanagement.md
+    - cad/fusionlayout.md
   - Programming:
     - programming/overview.md
   - Outreach:
