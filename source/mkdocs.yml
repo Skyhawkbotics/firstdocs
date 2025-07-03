@@ -34,6 +34,7 @@ nav:
     - cad/projectmanagement.md
     - cad/fusionlayout.md
     - cad/ParametricModeling.md
+    - cad/DesignHierarchy.md
   - Programming:
     - programming/overview.md
   - Outreach:
