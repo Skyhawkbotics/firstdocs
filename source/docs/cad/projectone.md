@@ -4,7 +4,7 @@ For this first project, you'll design a simple storage box with a lid and side h
 
 === "Creating the Design"
     * Every time you open Fusion, it makes a new untitled design
-        * First step is to press “CTRL + S” to name and save your new design
+        * First step is to press `CTRL + S` to name and save your new design
         * Name it “Project 1: Storage Box”
         * Make sure it's in the project folder you made earlier, then hit save
         * ![](../assets/fusion360/createproject.png)
@@ -34,7 +34,7 @@ For this first project, you'll design a simple storage box with a lid and side h
             * An origin point, so it knows where it should start
             * Lengths of every line defined (Ex, is your box 10mm tall or 50mm?)
             * Angles (Ex: are the lines of a rectangular box 90° to each other? Is your whole box rotated 30°?)
-    * Once you're done with the rectangle, the area inside of it should be highlighted blue. Click on this area, then click E to extrude
+    * Once you're done with the rectangle, the area inside of it should be highlighted blue. Click on this area, then click `E` to extrude
     * You should see a menu pop up and an arrow on top of the area, pull up the arrow until you like the height of your box, or if you want, you can manually type in a height, 40mm should be good
     * If everything worked, you should have a simple box now
 
@@ -48,7 +48,7 @@ For this first project, you'll design a simple storage box with a lid and side h
     * ![](../assets/fusion360/shell.png)
     * Take a moment to save your work
         * Saving your design frequently is important
-        * to do so, just click CTRL + S and just leave it as “User Saved” then hit OK
+        * to do so, just click `CTRL + S` and just leave it as “User Saved” then hit OK
         * It's easy to forget to save a design, so as a beginner, setting a 5-minute timer is useful
     * Now time to make the holes
         * Sketches can be made on more than just the origin plane; any flat plane can be used to create a sketch
@@ -63,9 +63,9 @@ For this first project, you'll design a simple storage box with a lid and side h
         * You will use this by making each circle's center point a few millimeters away from the top and side edge of the box
     * Make sure everything is constrained by looking for a red lock in the browser next to your sketch
     * Finish the sketch by clicking the green check in the toolbar
-    * Click on each face you want to cut while holding Shift, then press E to extrude
+    * Click on each face you want to cut while holding `Shift`, then press `E` to extrude
         * Using a negative value or pulling the arrow in the direction of the cut automatically switches the extrude from creating more material to cutting away from your design
-        * Make sure the cut goes all the way through the wall before clicking Enter
+        * Make sure the cut goes all the way through the wall before clicking `Enter`
         * (You could pull it through the other wall to cut both holes at the same time, but I want a chance to teach other tools so just go with me for this one)
         * ![](../assets/fusion360/cutside.png)
 
@@ -76,7 +76,7 @@ For this first project, you'll design a simple storage box with a lid and side h
     * You will be using a midplane to mirror your hole on the other side of your box
         * To do this, go under Construct and click on mid plane
         * ![](../assets/fusion360/midplane.png)
-        * Select the outside plane of each side of the box and hit enter, making sure a yellow plane appears in the center of the box
+        * Select the outside plane of each side of the box and hit `Enter`, making sure a yellow plane appears in the center of the box
         * ![](../assets/fusion360/midplanecreate.png)
     * Save again so you don't lose any work!
     * Using patterns to repeat an action can be a big time saver
@@ -86,7 +86,7 @@ For this first project, you'll design a simple storage box with a lid and side h
         * Change object type to Features
         * For Objects, select the hole we made
         * For the Mirror plane, select the Construction plane you made
-        * Make sure a hole appears on the other side, then hit Enter
+        * Make sure a hole appears on the other side, then hit `Enter`
         * ![](../assets/fusion360/mirrormore.png)
 
 === "More Components"
@@ -98,7 +98,7 @@ For this first project, you'll design a simple storage box with a lid and side h
         * ![](../assets/fusion360/morecomp (2).png)
         * While in sketch mode, use the offset tool in the modify part of the toolbar to offset the edge of the top; this will be the gap between the box and lid
             * Repeat the last step, but make a larger offset (3-4x the last one)
-            * Make sure this new sketch is defined, then select the area between the two offsets and press E
+            * Make sure this new sketch is defined, then select the area between the two offsets and press `E`
             * When in extrude mode, change Direction to Symmetric, then extrude the lid
             * ![](../assets/fusion360/morecomp (1).png)
     * When you have more than one component in Fusion, you are able to freely move them around the 3D space
@@ -121,7 +121,7 @@ For this first project, you'll design a simple storage box with a lid and side h
         * Then you select the inner and outer lines of any side of your lid
         * ![](../assets/fusion360/finish (1).png)
         * The distance will be displayed on screen and in the settings of the Measure tool
-    * Once you have this thickness, simply click the inner and outer area of the sketch and press E, then extrude up the same distance as your thickness
+    * Once you have this thickness, simply click the inner and outer area of the sketch and press `E`, then extrude up the same distance as your thickness
         * ![](../assets/fusion360/finish (4).png)
     * Save your design!
     * The last step is to activate the whole design
