@@ -91,7 +91,9 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 plugins:
-  - social
+  - social:
+      cards_layout_options:
+        font_family: Oxanium
   - git-committers:
       repository: Skyhawkbotics/firstdocs
       branch: main
