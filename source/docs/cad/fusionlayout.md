@@ -4,26 +4,22 @@ Understanding the layout of Fusion 360 will help you work more efficiently, so e
 
 ![](../assets/fusion360/fusionlayout.png)
 
-1. ### Toolbar (Top)
-    * Contains workspaces like: 
-        * Solid
-        * Surface
-        * Mesh
-        * And many more
-    * The tools available change depending on the active workspace
-2. ### Browser (Left Panel)
-    * A tree view of all components, bodies, sketches, and any other elements
-    * Helps you organize and manage your designs hierarchy 
-3. ### Canvas (Center)
-    * The main 3D workspace where you build and view your model
-    * This is where you interact with sketches, bodies, and any other elements
-4. ### ViewCube (Top-Right)
-    * The ViewCube lets you click or drag to change your 3D view (e.g., Front, Top, Isometric)
-    * The ViewCube also has tools for topdown and side viewing, zoom, and home view reset
-5. ### Timeline (Bottom)
-    * Shows a history of all actions (sketches, extrudes, fillets, etc.)
-    * You can reorder, edit, or suppress features here
-
-
-
-
+## Toolbar (Top)
+* Contains workspaces like: 
+    * Solid
+    * Surface
+    * Mesh
+    * And many more
+* The tools available change depending on the active workspace
+## Browser (Left Panel)
+  * A tree view of all components, bodies, sketches, and any other elements
+  * Helps you organize and manage your designs hierarchy 
+## Canvas (Center)
+  * The main 3D workspace where you build and view your model
+  * This is where you interact with sketches, bodies, and any other elements
+## ViewCube (Top-Right)
+  * The ViewCube lets you click or drag to change your 3D view (e.g., Front, Top, Isometric)
+  * The ViewCube also has tools for topdown and side viewing, zoom, and home view reset
+## Timeline (Bottom)
+  * Shows a history of all actions (sketches, extrudes, fillets, etc.)
+  * You can reorder, edit, or suppress features here
