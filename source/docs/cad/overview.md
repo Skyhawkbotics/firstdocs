@@ -1,3 +1,7 @@
+!!! info "Written for Fusion"
+
+    The CAD section is currently written for Fusion only. If you would like to add information for another CAD software, consider opening an issue in this website's repository so that we can cleanly add more information.
+
 ## What is CAD?
 Computer-Aided Design (CAD) is software used to create precise 3D models of parts and assemblies. For robotics, CAD is an essential part of the design process, allowing teams to plan their entire robot and design components for manufacturing, such as 3D printing, laser cutting, or other fabrication methods.
 
@@ -19,7 +23,7 @@ CAD is used by real engineers and product designers. Even if you're only modelin
 Not all tools are the same. These are some that FTC teams commonly use, many of which are free for students:  
 
 - **Onshape**: Fully cloud-based, no downloads needed, excellent for teams, similar to Fusion but fewer features.  
-- **Fusion 360**: Feature-dense, desktop-based CAD/CAM software, good collaboration tools, simple learning curve.  
+- **Fusion**: Feature-dense, desktop-based CAD/CAM software, good collaboration tools, simple learning curve.  
 - **SolidWorks**: Professional-grade tool, available through FIRST grants, extreme learning curve.  
 - **TinkerCAD**: Extremely simple and beginner-friendly, but limited in complexity.
 
@@ -28,7 +32,7 @@ It can be overwhelming at first, so start small and build up:
 
 - **Model One system at a Time**: Start with a drivetrain or intake.  
 - **Use Official STEP Files**: Save time by importing accurate models of REV, goBILDA, or other components from their product page, usually marked as STEP Files.  
-- **Collaborate**: Onshape and Fusion 360 allow multiple team members to work on the same design.  
+- **Collaborate**: Onshape and Fusion allow multiple team members to work on the same design.  
 - **Save Often**: Don’t spend 2 hours on a design only to lose all your work.  
 - **Name Your Files Clearly**: Avoid confusion when working with complex assemblies and shared folders.
 
