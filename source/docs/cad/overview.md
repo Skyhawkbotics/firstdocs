@@ -1,3 +1,7 @@
+!!! info "Written for Fusion"
+
+    The CAD section is currently written for Fusion only. If you would like to add information for another CAD software, consider opening an issue in this website's repository so that we can cleanly add more information.
+
 ## What is CAD?
 Computer-Aided Design (CAD) is software used to create precise 3D models of parts and assemblies. For robotics, CAD is an essential part of the design process, allowing teams to plan their entire robot and design components for manufacturing, such as 3D printing, laser cutting, or other fabrication methods.
 
