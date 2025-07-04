@@ -1,6 +1,6 @@
 # Project 1: The Box
 
-For this first project, you'll design a simple storage box with a lid and side holes. It introduces key Fusion 360 skills like creating components, sketching and constraining geometry, using tools like Extrude and Shell, and organizing your design for future projects.
+For this first project, you'll design a simple storage box with a lid and side holes. It introduces key Fusion skills like creating components, sketching and constraining geometry, using tools like Extrude and Shell, and organizing your design for future projects.
 
 ## Creating the Design
 * Every time you open Fusion, it makes a new untitled design

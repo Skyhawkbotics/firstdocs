@@ -1,7 +1,7 @@
 # Design Hierarchy
 
-## Understanding Design Hierarchy in Fusion 360
-When working in Fusion 360, it’s essential to keep your design organized by separating different parts into individual components. This helps maintain an organized design, simplifies joints, and avoids errors in assemblies later on.
+## Understanding Design Hierarchy in Fusion
+When working in Fusion, it’s essential to keep your design organized by separating different parts into individual components. This helps maintain an organized design, simplifies joints, and avoids errors in assemblies later on.
 
 ## Why Keep Parts Separate?
 While it might seem easier at first to model everything as a single body or component, this can quickly lead to a buggy mess. Using components to represent each part of your design ensures that:
@@ -12,7 +12,7 @@ While it might seem easier at first to model everything as a single body or comp
 * It’s easier to export or 3D print individual parts later
 
 ## Design Hierarchy Overview
-Fusion 360 uses a hierarchical structure to organize your design:
+Fusion uses a hierarchical structure to organize your design:
 
 1. Top-Level Component
     * This is your main assembly or overall design
@@ -47,7 +47,7 @@ Instead, create a new component for each distinct part:
 * You can easily drag and drop sketches, bodies, or even entire components within the browser to change where they appear in the hierarchy. This is useful for reorganizing parts or correcting misplaced items
 
 !!! tip
-    In Fusion 360, many tools allow you to change the operation type, this means you can change from Join or New Body to New Component, which creates a new component within the currently active one 
+    In Fusion, many tools allow you to change the operation type, this means you can change from Join or New Body to New Component, which creates a new component within the currently active one 
     ![](../assets/fusion360/componentview.png)
 
 

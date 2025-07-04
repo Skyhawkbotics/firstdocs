@@ -1,9 +1,9 @@
 # Parametric Modeling
 
-Parametric modeling is a design method where dimensions like length, angle, and other parameters fully define each action. In Fusion 360, parametric modeling is built in through the timeline. Every action you do is stored on the timeline. In simple terms, you build your model step-by-step, and each step remembers how it was created, so you can change dimensions or features later and the entire model updates accordingly.
+Parametric modeling is a design method where dimensions like length, angle, and other parameters fully define each action. In Fusion, parametric modeling is built in through the timeline. Every action you do is stored on the timeline. In simple terms, you build your model step-by-step, and each step remembers how it was created, so you can change dimensions or features later and the entire model updates accordingly.
 
 ## How Parametric Modeling Works
-In Fusion 360, parametric modeling works using a timeline, sketches, features, and constraints:
+In Fusion, parametric modeling works using a timeline, sketches, features, and constraints:
 
 ### Sketch + Constraints
 * You start with a 2D sketch
@@ -33,7 +33,7 @@ In Fusion 360, parametric modeling works using a timeline, sketches, features, a
       * Relationships between features (e.g., always-centered holes) remain intact even when the design changes
       * Other modifications, such as fillets, also persist when changes are made
   3. Timeline + History Editing
-      * Fusion 360's timeline lets you go back and change earlier steps without redoing the model
+      * Fusion's timeline lets you go back and change earlier steps without redoing the model
   4. Precision
       * It's easier to be accurate and apply real-world rules (like symmetry, equal lengths, tangents)
 ### Cons
@@ -43,5 +43,5 @@ In Fusion 360, parametric modeling works using a timeline, sketches, features, a
  2. Slower for Quick Edits
      * For quick, one-off models, fully constraining everything is slower than just guesstimating it
  3. Timeline Mess
-     * In Fusion 360, long timelines with many features can be hard to edit
+     * In Fusion, long timelines with many features can be hard to edit
      * Dependencies between features can be break easily if not organized well
