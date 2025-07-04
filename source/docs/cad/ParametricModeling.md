@@ -21,7 +21,7 @@ In Fusion 360, parametric modeling works using a timeline, sketches, features, a
     * Every operation (sketch, extrude, fillet, etc.) is recorded on the timeline
     * You can go back in time to edit earlier steps, and Fusion will automatically recalculate all later steps
 
-    ![Git Command List Menu](../assets/fusion360/timeline.png)
+    ![](../assets/fusion360/timeline.png)
 
 ## Pros and Cons of Parametric Modeling
 

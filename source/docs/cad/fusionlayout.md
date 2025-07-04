@@ -2,7 +2,7 @@
 
 Understanding the layout of Fusion 360 will help you work more efficiently, so explore the different tabs and memorize some key terms. Fusion 360’s interface is divided into several areas to help you design, model, and simulate parts effectively, and don’t worry, if you make a mistake or misclick, you can always press CTRL + Z to undo it.
 
-![Git Command List Menu](../assets/fusion360/fusionlayout.png)
+![](../assets/fusion360/fusionlayout.png)
 
 1. ### Toolbar (Top)
     * Contains workspaces like: 

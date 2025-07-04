@@ -35,7 +35,7 @@ nav:
     - cad/fusionlayout.md
     - cad/ParametricModeling.md
     - cad/DesignHierarchy.md
-    - cad/project1.md
+    - cad/projectone.md
   - Programming:
     - programming/overview.md
   - Outreach:
@@ -100,3 +100,5 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true

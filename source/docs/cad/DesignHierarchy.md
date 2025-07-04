@@ -48,6 +48,6 @@ Instead, create a new component for each distinct part:
 
 !!! tip
     In Fusion 360, many tools allow you to change the operation type, this means you can change from Join or New Body to New Component, which creates a new component within the currently active one 
-    ![Git Command List Menu](../assets/fusion360/componentview.png)
+    ![](../assets/fusion360/componentview.png)
 
 
