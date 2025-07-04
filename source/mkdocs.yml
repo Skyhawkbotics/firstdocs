@@ -31,6 +31,11 @@ nav:
   #   - electronics/telemetry.md
   - CAD:
     - cad/overview.md
+    - cad/projectmanagement.md
+    - cad/fusionlayout.md
+    - cad/ParametricModeling.md
+    - cad/DesignHierarchy.md
+    - cad/projectone.md
   - Programming:
     # - programming/overview.md
     - programming/git.md
