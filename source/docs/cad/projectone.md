@@ -13,14 +13,14 @@ For this first project, you'll design a simple storage box with a lid and side h
     ![](../assets/fusion360/boxone.png)
 
 ## Creating Bodies
-* Create a component for your box
+* Create a component for your box  
 ![](../assets/fusion360/createcomp.png)
-* Name your new component before clicking OK
-* The component will now appear in your browser, make sure the circle next to it is ticked
+* Name your new component before clicking OK  
+* The component will now appear in your browser, make sure the circle next to it is ticked  
 ![](../assets/fusion360/activatecomp.png)
-* Now that you have your new component, click Create Sketch
+* Now that you have your new component, click Create Sketch  
 ![](../assets/fusion360/createsketch.png)
-* Make this sketch on the X/Y plane
+* Make this sketch on the X/Y plane  
 ![](../assets/fusion360/xyplane.png)
 * In sketch mode, you will see a new tab appear on your toolbar; this sketch tab will have all the tools you need to create a sketch.
 * Press `R` or click the rectangle tool in your toolbar to create a rectangle
@@ -42,9 +42,9 @@ For this first project, you'll design a simple storage box with a lid and side h
 ## Modifying Bodies
 * The modification tab has all sorts of useful tools, and most of them can be learned with a quick Google search, so I encourage you to play around with it
 * For now, you will use the Shell modifier to make your box hollow
-* Select the shell tool, then select the faces you want to keep open and the thickness of the shell (you will be selecting the top face)
+* Select the shell tool, then select the faces you want to keep open and the thickness of the shell (you will be selecting the top face)  
 ![](../assets/fusion360/shellselect.png)
-* Do a thickness that looks good, I would do ~2mm 
+* Do a thickness that looks good, I would do ~2mm  
 ![](../assets/fusion360/shell.png)
 * Take a moment to save your work
     * Saving your design frequently is important
@@ -53,7 +53,7 @@ For this first project, you'll design a simple storage box with a lid and side h
 * Now time to make the holes
     * Sketches can be made on more than just the origin plane; any flat plane can be used to create a sketch
     * For the next step, you will be making holes in our box
-    * To do this, you will create a sketch on the side of the box
+    * To do this, you will create a sketch on the side of the box  
     ![](../assets/fusion360/sidesketch.png)
 * Fusion uses diameter instead of radius, so you must keep that in mind when making circles
 * To make the holes, create a circle and give it a diameter. **Make sure not to create it with an origin; the outline of it should be blue**
@@ -66,7 +66,7 @@ For this first project, you'll design a simple storage box with a lid and side h
 * Click on each face you want to cut while holding `Shift`, then press `E` to extrude
     * Using a negative value or pulling the arrow in the direction of the cut automatically switches the extrude from creating more material to cutting away from your design
     * Make sure the cut goes all the way through the wall before clicking `Enter`
-    * (You could pull it through the other wall to cut both holes at the same time, but I want a chance to teach other tools so just go with me for this one)
+    * (You could pull it through the other wall to cut both holes at the same time, but I want a chance to teach other tools so just go with me for this one)  
     ![](../assets/fusion360/cutside.png)
 
 
@@ -74,19 +74,19 @@ For this first project, you'll design a simple storage box with a lid and side h
 * Construction planes are like a temporary frame to build on top of
     * You can use them to create sketches at weird angles, create lines to rotate a component along, or create points to make holes through
 * You will be using a midplane to mirror your hole on the other side of your box
-    * To do this, go under Construct and click on mid plane
+    * To do this, go under Construct and click on mid plane  
     ![](../assets/fusion360/midplane.png)
-    * Select the outside plane of each side of the box and hit `Enter`, making sure a yellow plane appears in the center of the box
+    * Select the outside plane of each side of the box and hit `Enter`, making sure a yellow plane appears in the center of the box  
     ![](../assets/fusion360/midplanecreate.png)
 * Save again so you don't lose any work!
 * Using patterns to repeat an action can be a big time saver
     * In this case, you will be using the mirror action to mirror the hole you made
-    * To do this, select the Mirror option under Create
+    * To do this, select the Mirror option under Create  
     ![](../assets/fusion360/mirror.png)
     * Change object type to Features
     * For Objects, select the hole we made
     * For the Mirror plane, select the Construction plane you made
-    * Make sure a hole appears on the other side, then hit `Enter`
+    * Make sure a hole appears on the other side, then hit `Enter`  
     ![](../assets/fusion360/mirrormore.png)
 
 ## More Components
@@ -94,19 +94,19 @@ For this first project, you'll design a simple storage box with a lid and side h
     * To do this, create a new component and name it Lid
     * When you click OK, the bottom box should turn transparent
 * To create the lid, you will create a sketch on the lip of the box
-    * To do this, right-click on the lip of the box and click Create Sketch
+    * To do this, right-click on the lip of the box and click Create Sketch  
     ![](../assets/fusion360/morecomp (2).png)
     * While in sketch mode, use the offset tool in the modify part of the toolbar to offset the edge of the top; this will be the gap between the box and lid
         * Repeat the last step, but make a larger offset (3-4x the last one)
         * Make sure this new sketch is defined, then select the area between the two offsets and press `E`
-        * When in extrude mode, change Direction to Symmetric, then extrude the lid
+        * When in extrude mode, change Direction to Symmetric, then extrude the lid  
         ![](../assets/fusion360/morecomp (1).png)
 * When you have more than one component in Fusion, you are able to freely move them around the 3D space
     * This can often be annoying when you are trying to work on a part
     * You can stop this movement by pinning the component in place
-* To do this, right-click on the component and click Pin
+* To do this, right-click on the component and click Pin  
     ![](../assets/fusion360/morecomp (4).png)
-    * If you accidentally moved the component before doing this, you can click revert position in the toolbar to move it back
+    * If you accidentally moved the component before doing this, you can click revert position in the toolbar to move it back  
     ![](../assets/fusion360/morecomp (3).png)
 
 
@@ -116,15 +116,15 @@ For this first project, you'll design a simple storage box with a lid and side h
 * To finish the lid, you need to add a top
     * To do this, all you need to do is create a sketch on top of the lid
     * Before you extrude, you need to know how thick it should be
-    * To check this, you need to click Measure in the Inspect part of your toolbar 
+    * To check this, you need to click Measure in the Inspect part of your toolbar  
     ![](../assets/fusion360/finish (2).png)
-    * Then you select the inner and outer lines of any side of your lid
+    * Then you select the inner and outer lines of any side of your lid  
     ![](../assets/fusion360/finish (1).png)
-    * The distance will be displayed on screen and in the settings of the Measure tool
-* Once you have this thickness, simply click the inner and outer area of the sketch and press `E`, then extrude up the same distance as your thickness
+    * The distance will be displayed on screen and in the settings of the Measure tool  
+* Once you have this thickness, simply click the inner and outer area of the sketch and press `E`, then extrude up the same distance as your thickness  
     ![](../assets/fusion360/finish (4).png)
 * Save your design!
-* The last step is to activate the whole design
+* The last step is to activate the whole design  
     ![](../assets/fusion360/finish (3).png)
     * After this, you are done!
 
