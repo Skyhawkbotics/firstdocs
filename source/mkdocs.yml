@@ -31,6 +31,11 @@ nav:
   #   - electronics/telemetry.md
   - CAD:
     - cad/overview.md
+    - cad/projectmanagement.md
+    - cad/fusionlayout.md
+    - cad/ParametricModeling.md
+    - cad/DesignHierarchy.md
+    - cad/projectone.md
   - Programming:
     # - programming/overview.md
     - programming/git.md
@@ -57,6 +62,7 @@ site_name: FTC Community Docs
 repo_url: https://github.com/Skyhawkbotics/firstdocs
 repo_name: Skyhawkbotics/firstdocs
 site_dir: ../site
+site_url: https://www.firstcommunitydocs.com
 edit_uri: edit/main/source/docs/
 copyright: Maintained by Hawkbot1cs
 theme:
@@ -100,6 +106,9 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 plugins:
+  - social:
+      cards_layout_options:
+        font_family: Oxanium
   - git-committers:
       repository: Skyhawkbotics/firstdocs
       branch: main
