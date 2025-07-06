@@ -94,6 +94,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 plugins:
+  - search:
   - git-committers:
       repository: Skyhawkbotics/firstdocs
       branch: main
