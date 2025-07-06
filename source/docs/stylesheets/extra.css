@@ -1,0 +1,17 @@
+:root {
+    --md-admonition-icon--caution: .icons/material/error.svg
+}
+  .md-typeset .admonition.caution,
+  .md-typeset details.caution {
+    border-color: rgb(192, 189, 0);
+  }
+  .md-typeset .caution > .admonition-title,
+  .md-typeset .caution > summary {
+    background-color: rgba(192, 189, 0, 0.1);
+  }
+  .md-typeset .caution > .admonition-title::before,
+  .md-typeset .caution > summary::before {
+    background-color: rgb(192, 189, 0);
+    -webkit-mask-image: var(--md-admonition-icon--caution);
+            mask-image: var(--md-admonition-icon--caution);
+  }
