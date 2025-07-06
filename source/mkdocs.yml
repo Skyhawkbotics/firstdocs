@@ -95,6 +95,7 @@ theme:
         name: Switch to system preference
 plugins:
   - search:
+  - glightbox:
   - git-committers:
       repository: Skyhawkbotics/firstdocs
       branch: main
