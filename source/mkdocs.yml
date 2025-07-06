@@ -67,6 +67,8 @@ theme:
     - content.code.copy
     - content.tabs.link
     - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
   font:
     text: Oxanium
   palette:
