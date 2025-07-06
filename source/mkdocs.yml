@@ -58,6 +58,7 @@ theme:
     admonition:
       tip: material/lightbulb-on
   name: material
+  custom_dir: overrides
   features:
     - content.action.edit
     - navigation.tabs
