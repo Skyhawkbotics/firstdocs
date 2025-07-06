@@ -240,7 +240,5 @@ A pull request (PR) is a formal method of merging code upstream. For teams new t
 
 ## Organizing Your Repo
 
-* Commit frequently, and write meaningful commit messages
-* Merge branches once testing is complete
 * Consider using GitHub issues for task tracking
 * Use `.gitignore` to prevent unnecessary files from clogging up your repo, such as `DS-Store`.
