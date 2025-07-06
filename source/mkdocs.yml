@@ -74,6 +74,7 @@ theme:
     admonition:
       tip: material/lightbulb-on
   name: material
+  custom_dir: overrides
   features:
     - content.action.edit
     - navigation.tabs
@@ -82,6 +83,9 @@ theme:
     - content.tabs.link
     - content.code.copy
     - content.tabs.link
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
   font:
     text: Oxanium
   palette:
