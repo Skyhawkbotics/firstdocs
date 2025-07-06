@@ -96,6 +96,9 @@ theme:
 plugins:
   - search:
   - glightbox:
+      auto_caption: true
+      skip_classes:
+         - lightbox-skip
   - git-committers:
       repository: Skyhawkbotics/firstdocs
       branch: main
